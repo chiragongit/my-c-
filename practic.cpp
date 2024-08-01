@@ -1,21 +1,18 @@
 #include <iostream>
 using namespace std;
-main()
+int yoyo()
 {
-    int age;
-    cin >> age;
-    switch (age)
+    for (int k = 0; k <= 5; k++)
     {
-    case 12:
-        /* code */ cout << "u r  12 age";
-
-        break;
-    case 18:
-        cout << "u r 18 year old";
-
-    default:
-        cout << "u r not 18 not 12";
-        break;
+        for (int i = 0; i <= 5;)
+        {
+            cout<<"$";
+            i++;
+        }
+        // cout<<endl;
     }
     return 0;
+}
+int main(){
+    yoyo();
 }
